@@ -1,3 +1,7 @@
+ul {
+    list-style-type: none;
+}
+
 .main-container{
     height: 11in;
     width: 8.5in;
@@ -13,10 +17,18 @@
 .name {
     position: absolute;
     top: 5%;
-    left: 10%;
+    left: 5%;
     color: #43544e;
     font-family: 'Megrim', cursive;
     font-size: 50px;
+}
+.main-info {
+    position: absolute;
+    top: 3.5%;
+    left: 55%;
+    color: #43544e;
+    font-family: 'Rajdhani', cursive;
+    font-size:15px;
 }
 
 .text {
@@ -34,8 +46,8 @@
     width: 1px;
 }
 .one {
-    top: 5%;
-    left: 80%;
+    top: 4%;
+    left: 58%;
     height: 100px;
 }
 .two {
@@ -46,15 +58,45 @@
     background-color: #c5c5c5;
 }
 .three {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 200px;
-    width: 2px;
+    top: 20%;
+    left: 39%;
+    height: 350px;
+    width: 1px;
     background-color: #3f4d48;
 }
-.four {
+.projects-title {
+    position: absolute;
+    top: 36%;
+    left: 31%;
+    font-family: 'Megrim', cursive;
+    color: #43544e;
+    font-size: 20px;
+    transform: rotate(270deg);
+}
 
+.four {
+    top: 16%;
+    left: 11%;
+    height: 150px;
+    width: 1px;
+    background-color: #43544e;
+}
+.skills-title {
+    position: absolute;
+    top: 22%;
+    left: 5%;
+    font-family: 'Megrim', cursive;
+    color: #43544e;
+    font-size: 20px;
+    transform: rotate(270deg);
+}
+.skills-list {
+    position: absolute;
+    top: 12%;
+    left: 8%;
+    font-family: 'Rajdhani', cursive;
+    color: #43544e;
+    font-size: 15px;
 }
 .five {
 
