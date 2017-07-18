@@ -1,0 +1,67 @@
+.main-container{
+    height: 11in;
+    width: 8.5in;
+    background-image: url('./staffan-kjellvestad-38854.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 100px;
+}
+
+.name {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: #43544e;
+    font-family: 'Megrim', cursive;
+    font-size: 50px;
+}
+
+.text {
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    color: #c5c5c5;
+    font-family: 'Rock Salt', cursive;
+    font-size: xx-large;
+}
+
+.line {
+    position: absolute;
+    background-color: #43544e;
+    width: 1px;
+}
+.one {
+    top: 5%;
+    left: 80%;
+    height: 100px;
+}
+.two {
+    top: 85%;
+    left: 10%;
+    height: 100px;
+    width: 2px;
+    background-color: #c5c5c5;
+}
+.three {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 2px;
+    background-color: #3f4d48;
+}
+.four {
+
+}
+.five {
+
+}
+.six {
+
+}
+.seven {
+
+}
