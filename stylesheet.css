@@ -73,6 +73,51 @@ ul {
     font-size: 20px;
     transform: rotate(270deg);
 }
+.venture-line-one {
+    position: absolute;
+    width: 1px;
+    height: 224px;
+    background-color: #43544e;
+    top: 18%;
+    left: 83%;
+}
+.venture-title {
+    position: absolute;
+    top: 20%;
+    left: 84%;
+    color: #43544e;
+    font-family: 'Megrim', cursive;
+    font-size: 18px
+}
+.venture-tech-line {
+    position: absolute;
+    top: 25%;
+    left: 94%;
+    height: 90px;
+    width: 1px;
+    background-color: #43544e;
+}
+.venture-tech-title {
+    position: absolute;
+    top: 26%;
+    left: 93.5%;
+    color: #43544e;
+    font-family: 'Rajdhani', cursive;
+    font-size: 17px;
+    transform: rotate(90deg);
+    text-transform: uppercase;
+}
+.venture-tech {
+    position: absolute;
+    top: 22%;
+    left: 81.5%;
+    color: #43544e;
+    font-family: 'Rajdhani', cursive;
+    font-size: 13px;
+}
+.venture-tech li {
+  text-align: right;
+}
 
 .four {
     top: 16%;
