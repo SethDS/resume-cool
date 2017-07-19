@@ -22,6 +22,14 @@ ul {
     font-family: 'Megrim', cursive;
     font-size: 50px;
 }
+.web-developer {
+    position: absolute;
+    top: 11%;
+    left: 16%;
+    color: #43544e;
+    font-family: 'Rajdhani', cursive;
+    text-transform: uppercase;
+}
 .main-info {
     position: absolute;
     top: 3.5%;
@@ -58,22 +66,31 @@ ul {
     background-color: white
 }
 .three {
-    top: 18%;
+    top: 22%;
     left: 26%;
-    height: 699px;
+    height: 614px;
     width: 1px;
-    background-color: #3f4d48;
+    background: linear-gradient(to bottom, rgb(63,77,72), rgba(63,77,72,0));
 }
 .projects-title {
     position: absolute;
-    top: 53%;
-    left: 18%;
+    top: 19%;
+    left: 26%;
     font-family: 'Rajdhani', cursive;
     color: #43544e;
     font-size: 25px;
-    transform: rotate(270deg);
+    /*transform: rotate(270deg);*/
     text-transform: uppercase;
 }
+.project-line {
+    position: absolute;
+    top: 22%;
+    left: 26%;
+    height: 1px;
+    width: 72px;
+    background-color: #43544e;
+}
+
 .venture-line-one {
     position: absolute;
     width: 1px;
@@ -84,8 +101,8 @@ ul {
 }
 .venture-title {
     position: absolute;
-    top: 20%;
-    left: 84%;
+    top: 21%;
+    left: 82%;
     color: #43544e;
     font-family: 'Rajdhani', cursive;
     font-size: 20px;
@@ -122,7 +139,7 @@ ul {
 }
 .venture-description {
     position: absolute;
-    top: 18%;
+    top: 24%;
     left: 30%;
     height: 20px;
     width: 421px;
@@ -132,7 +149,7 @@ ul {
 }
 .venture-points {
     position: absolute;
-    top: 26%;
+    top: 32%;
     left: 23%;
     color: #43544e;
     font-family: 'Rajdhani', cursive;
@@ -144,7 +161,7 @@ ul {
 }
 .venture-award {
     position: absolute;
-    top: 49%;
+    top: 53%;
     left: 45%;
     color: #43544e;
     font-family: 'Rajdhani', cursive;
@@ -161,7 +178,7 @@ ul {
 .topsecret-title {
     position: absolute;
     top: 65%;
-    left: 84%;
+    left: 83%;
     color: white;
     font-family: 'Rajdhani', cursive;
     font-size: 15px;
@@ -240,28 +257,44 @@ ul {
 }
 
 .four {
-    top: 16%;
-    left: 11%;
-    height: 150px;
+    top: 29%;
+    left: 8.15%;
+    height: 164px;
     width: 1px;
     background-color: #43544e;
 }
 .skills-title {
     position: absolute;
-    top: 22%;
-    left: 5%;
-    font-family: 'Megrim', cursive;
+    top: 39%;
+    left: 2%;
+    font-family: 'Rajdhani', cursive;
     color: #43544e;
     font-size: 20px;
     transform: rotate(270deg);
+    text-transform: uppercase;
 }
 .skills-list {
     position: absolute;
-    top: 12%;
-    left: 8%;
+    top: 24%;
+    left: 5%;
     font-family: 'Rajdhani', cursive;
     color: #43544e;
     font-size: 15px;
+}
+.soft-skills {
+    position: absolute;
+    top: 44%;
+    left: -2%;
+    font-family: 'Rajdhani', cursive;
+    color: #43544e;
+}
+.skills-divider {
+    position: absolute;
+    top: 469px;
+    left: 0;
+    height: 1px;
+    width: 67px;
+    background-color: #43544e;
 }
 .five {
 
