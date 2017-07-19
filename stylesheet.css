@@ -52,26 +52,27 @@ ul {
 }
 .two {
     top: 85%;
-    left: 10%;
-    height: 100px;
-    width: 2px;
-    background-color: #c5c5c5;
+    left: 15%;
+    height: 159px;
+    width: 1px;
+    background-color: white
 }
 .three {
-    top: 20%;
+    top: 18%;
     left: 26%;
-    height: 350px;
+    height: 699px;
     width: 1px;
     background-color: #3f4d48;
 }
 .projects-title {
     position: absolute;
-    top: 36%;
+    top: 53%;
     left: 18%;
-    font-family: 'Megrim', cursive;
+    font-family: 'Rajdhani', cursive;
     color: #43544e;
-    font-size: 20px;
+    font-size: 25px;
     transform: rotate(270deg);
+    text-transform: uppercase;
 }
 .venture-line-one {
     position: absolute;
@@ -86,8 +87,9 @@ ul {
     top: 20%;
     left: 84%;
     color: #43544e;
-    font-family: 'Megrim', cursive;
-    font-size: 18px
+    font-family: 'Rajdhani', cursive;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 .venture-tech-line {
     position: absolute;
@@ -161,8 +163,9 @@ ul {
     top: 65%;
     left: 84%;
     color: white;
-    font-family: 'Megrim', cursive;
-    font-size: 18px
+    font-family: 'Rajdhani', cursive;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 .topsecret-description {
     position: absolute;
@@ -213,6 +216,27 @@ ul {
 }
 .topsecret-tech li {
     text-align: right;
+}
+
+.education-title {
+    position: absolute;
+    top: 90%;
+    left: 8%;
+    transform: rotate(270deg);
+    color: white;
+    font-family: 'Rajdhani', cursive;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.education-list {
+    position: absolute;
+    top: 86%;
+    left: 11%;
+    font-family: 'Rajdhani', cursive;
+    color: white;
+}
+.education-list li {
+    margin: 10px;
 }
 
 .four {
