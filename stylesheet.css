@@ -151,7 +151,7 @@ ul {
 .topsecret-main-line {
     position: absolute;
     width: 1px;
-    height: 355px;
+    height: 257px;
     background-color: #c5c5c5;
     top: 60%;
     left: 83%;
@@ -160,9 +160,59 @@ ul {
     position: absolute;
     top: 65%;
     left: 84%;
-    color: #c5c5c5;
+    color: white;
     font-family: 'Megrim', cursive;
     font-size: 18px
+}
+.topsecret-description {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    height: 20px;
+    width: 421px;
+    color: white;
+    font-family: 'Rajdhani', cursive;
+    text-align: right;
+}
+.topsecret-points {
+    position: absolute;
+    top: 70%;
+    left: 42%;
+    color: white;
+    font-family: 'Rajdhani', cursive;
+    text-align: right;
+}
+.topsecret-points li {
+    margin: 10px;
+}
+.topsecret-tech-line {
+    position: absolute;
+    top: 74%;
+    left: 94%;
+    height: 90px;
+    width: 1px;
+    background-color: #c5c5c5;
+}
+.topsecret-tech-title {
+    position: absolute;
+    top: 76%;
+    left: 93.5%;
+    color: white;
+    font-family: 'Rajdhani', cursive;
+    font-size: 17px;
+    transform: rotate(90deg);
+    text-transform: uppercase;
+}
+.topsecret-tech {
+    position: absolute;
+    top: 74%;
+    left: 81.5%;
+    color: white;
+    font-family: 'Rajdhani', cursive;
+    font-size: 13px;
+}
+.topsecret-tech li {
+    text-align: right;
 }
 
 .four {
