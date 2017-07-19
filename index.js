@@ -1,10 +1,11 @@
 var express = require('express');
-var app = express();
 
-app.set('port', (process.emv.port || 5051));
+var app = express();
 
 app.use(express.static('./index.html'));
 
-app.listen(app.get('port'), function(){
-    console.log('Node app is running on port:', app.get('port'));
+
+var port = process.env.PORT || 5051;
+app.listen(port, function(){
+    console.log('listening on port ' + port + '...');
 });
