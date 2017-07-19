@@ -59,7 +59,7 @@ ul {
 }
 .three {
     top: 20%;
-    left: 39%;
+    left: 26%;
     height: 350px;
     width: 1px;
     background-color: #3f4d48;
@@ -67,7 +67,7 @@ ul {
 .projects-title {
     position: absolute;
     top: 36%;
-    left: 31%;
+    left: 18%;
     font-family: 'Megrim', cursive;
     color: #43544e;
     font-size: 20px;
@@ -76,7 +76,7 @@ ul {
 .venture-line-one {
     position: absolute;
     width: 1px;
-    height: 224px;
+    height: 355px;
     background-color: #43544e;
     top: 18%;
     left: 83%;
@@ -91,7 +91,7 @@ ul {
 }
 .venture-tech-line {
     position: absolute;
-    top: 25%;
+    top: 31%;
     left: 94%;
     height: 90px;
     width: 1px;
@@ -99,7 +99,7 @@ ul {
 }
 .venture-tech-title {
     position: absolute;
-    top: 26%;
+    top: 32%;
     left: 93.5%;
     color: #43544e;
     font-family: 'Rajdhani', cursive;
@@ -109,7 +109,7 @@ ul {
 }
 .venture-tech {
     position: absolute;
-    top: 22%;
+    top: 28%;
     left: 81.5%;
     color: #43544e;
     font-family: 'Rajdhani', cursive;
@@ -117,6 +117,52 @@ ul {
 }
 .venture-tech li {
   text-align: right;
+}
+.venture-description {
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    height: 20px;
+    width: 421px;
+    color: #43544e;
+    font-family: 'Rajdhani', cursive;
+    text-align: right;
+}
+.venture-points {
+    position: absolute;
+    top: 26%;
+    left: 23%;
+    color: #43544e;
+    font-family: 'Rajdhani', cursive;
+    text-align: right;
+}
+.venture-points li {
+    margin: 10px;
+    width: 423px;
+}
+.venture-award {
+    position: absolute;
+    top: 49%;
+    left: 45%;
+    color: #43544e;
+    font-family: 'Rajdhani', cursive;
+}
+
+.topsecret-main-line {
+    position: absolute;
+    width: 1px;
+    height: 355px;
+    background-color: #c5c5c5;
+    top: 60%;
+    left: 83%;
+}
+.topsecret-title {
+    position: absolute;
+    top: 65%;
+    left: 84%;
+    color: #c5c5c5;
+    font-family: 'Megrim', cursive;
+    font-size: 18px
 }
 
 .four {
