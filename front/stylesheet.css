@@ -5,7 +5,7 @@ ul {
 .main-container{
     height: 11in;
     width: 8.5in;
-    background-image: url('./staffan-kjellvestad-38854.jpg');
+    background-image: url('staffan-kjellvestad-38854.jpg');
     background-size: cover;
     position: absolute;
     top: 50%;
